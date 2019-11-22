@@ -17,3 +17,4 @@ D:\$DESCARGAS$\VisualStudio\VistaEditarEmpleado\obj\Debug\VistaEditarEmpleado.cs
 D:\$DESCARGAS$\VisualStudio\VistaEditarEmpleado\obj\Debug\VistaEditarEmpleado.csproj.CopyComplete
 D:\$DESCARGAS$\VisualStudio\VistaEditarEmpleado\obj\Debug\VistaEditarEmpleado.exe
 D:\$DESCARGAS$\VisualStudio\VistaEditarEmpleado\obj\Debug\VistaEditarEmpleado.pdb
+D:\$DESCARGAS$\VisualStudio\VistaEditarEmpleado\obj\Debug\VistaEditarEmpleado.csprojAssemblyReference.cache

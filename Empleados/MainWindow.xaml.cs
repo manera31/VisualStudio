@@ -30,17 +30,22 @@ namespace Empleados
         {
             Employee employee = new Employee();
             Formulario formulario = new Formulario(employee);
-            
+            formulario.evento += (o) => { Employee.GetEmployees().Add(o); };
             formulario.Show();
-            Employee.GetEmployees().Add(employee);
-            
+            //Employee.GetEmployees().Add(employee);
+
+
         }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             Employee employee = (Employee)dataGrid.CurrentItem;
             Formulario f = new Formulario(employee);
+            f.evento += (o) => { Employee.GetEmployees().Add(o); };
             f.Show();
+            
         }
+
+        
     }
 }

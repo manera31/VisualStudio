@@ -3,9 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Empleados"
+        xmlns:core="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:Empleados;assembly=ClaseEmpleado"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <ObjectDataProvider x:Key="myEnum" MethodName="GetValues" ObjectType="{x:Type core:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:TypeExtension Type="local:Party"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
     
     <Grid>
         <DataGrid x:Name="dataGrid" AlternatingRowBackground="LightBlue" AlternationCount="2" AutoGenerateColumns="False" Margin="0,0,0,52">

@@ -21,7 +21,6 @@ D:\$DESCARGAS$\VisualStudio\Empleados\obj\Debug\Empleados.csprojAssemblyReferenc
 D:\$DESCARGAS$\VisualStudio\Empleados\obj\Debug\MainWindow.g.cs
 D:\$DESCARGAS$\VisualStudio\Empleados\obj\Debug\App.g.cs
 D:\$DESCARGAS$\VisualStudio\Empleados\obj\Debug\Empleados_MarkupCompile.cache
-D:\$DESCARGAS$\VisualStudio\Empleados\obj\Debug\Empleados_MarkupCompile.lref
 D:\$DESCARGAS$\VisualStudio\Empleados\obj\Debug\MainWindow.baml
 D:\$DESCARGAS$\VisualStudio\Empleados\obj\Debug\Empleados.g.resources
 D:\$DESCARGAS$\VisualStudio\Empleados\obj\Debug\Empleados.Properties.Resources.resources

@@ -21,16 +21,21 @@ namespace Empleados
     {
         private Employee employee;
         private Boolean aux;
+        private Boolean haveData;
+        public delegate void EventHandler(Employee e);
+        public event EventHandler evento;
         public Formulario(Employee employee)
         {
             this.employee = employee;
             aux = false;
+            haveData = false;
             InitializeComponent();
             if (employee.Name != null)
             {
                 textoNombre.Text = employee.Name;
                 textoTitulo.Text = employee.Title;
                 CheckReelected.IsChecked = employee.WasReElected;
+                haveData = true;
             }
             
         }
@@ -42,20 +47,50 @@ namespace Empleados
                 employee.Title = textoTitulo.Text;
                 employee.Name = textoNombre.Text;
                 employee.WasReElected = CheckReelected.IsChecked.Value;
+                if (!haveData)
+                {
+                    evento(employee);
+                }
+                
                 aux = true;
             }
 
-            this.Close();
+            
+            
         }
 
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            if (!aux)
+            if (!aux && !textoNombre.Text.Equals("") && !textoTitulo.Text.Equals(""))
             {
-                MessageBox.Show("No se guardaran los cambios");
+                MessageBoxButton bb = MessageBoxButton.YesNoCancel;
+                MessageBoxResult br = MessageBox.Show("Guardar los cambios?", "Error", bb);
+                switch (br)
+                {
+                    case MessageBoxResult.Yes:
+                        employee.Title = textoTitulo.Text;
+                        employee.Name = textoNombre.Text;
+                        employee.WasReElected = CheckReelected.IsChecked.Value;
+                        if (!haveData)
+                        {
+                            evento(employee);
+                        }
+                        break;
+                    case MessageBoxResult.No:
+                        break;
+                    case MessageBoxResult.Cancel:
+                        e.Cancel = true;
+                        break;
+                }
+                
+            } else if (!aux)
+            {
+                MessageBox.Show("No hay cambios que guardar");
             }
             
         }
+
+        
     }
 }

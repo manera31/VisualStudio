@@ -11,3 +11,4 @@ D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado.Properties.Res
 D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado.csproj.GenerateResource.cache
 D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado.exe
 D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado.pdb
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado.csprojAssemblyReference.cache
