@@ -1,0 +1,16 @@
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\Empleados.csprojAssemblyReference.cache
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\App.g.cs
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\Empleados_MarkupCompile.cache
+C:\Users\joan\Source\Repos\Empleados\Empleados\bin\Debug\Empleados.exe.config
+C:\Users\joan\Source\Repos\Empleados\Empleados\bin\Debug\Empleados.exe
+C:\Users\joan\Source\Repos\Empleados\Empleados\bin\Debug\Empleados.pdb
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\MainWindow.g.cs
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\Empleados_MarkupCompile.lref
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\MainWindow.baml
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\Empleados.g.resources
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\Empleados.Properties.Resources.resources
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\Empleados.csproj.GenerateResource.cache
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\Empleados.exe
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\Empleados.pdb
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\Formulario.g.cs
+C:\Users\joan\Source\Repos\Empleados\Empleados\obj\Debug\Formulario.baml
