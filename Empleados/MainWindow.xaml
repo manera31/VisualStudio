@@ -10,9 +10,9 @@
     <Grid>
         <DataGrid x:Name="dataGrid" AlternatingRowBackground="LightBlue" AlternationCount="2" AutoGenerateColumns="False" Margin="0,0,0,52">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
-                <DataGridTextColumn Header="Title" Binding="{Binding Title}" />
-                <DataGridCheckBoxColumn Header="ReElected" Binding="{Binding WasReElected}" />
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" IsReadOnly="True" />
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" IsReadOnly="True" />
+                <DataGridCheckBoxColumn Header="ReElected" Binding="{Binding WasReElected}" IsReadOnly="True" />
                 <!--<DataGridComboBoxColumn Header="Party" Binding="{Binding Affiliation}" ItemsSource="{Binding Source={StaticResource myEnum}}"/>-->
 
 

@@ -38,7 +38,8 @@ namespace Empleados
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
-            Formulario f = new Formulario((Employee)dataGrid.CurrentItem);
+            Employee employee = (Employee)dataGrid.CurrentItem;
+            Formulario f = new Formulario(employee);
             f.Show();
         }
     }

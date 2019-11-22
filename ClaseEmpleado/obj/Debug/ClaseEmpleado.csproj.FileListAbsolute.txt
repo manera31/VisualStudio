@@ -1,0 +1,13 @@
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\bin\Debug\ClaseEmpleado.exe.config
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\bin\Debug\ClaseEmpleado.exe
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\bin\Debug\ClaseEmpleado.pdb
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\MainWindow.g.cs
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\App.g.cs
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado_MarkupCompile.cache
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado_MarkupCompile.lref
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\MainWindow.baml
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado.g.resources
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado.Properties.Resources.resources
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado.csproj.GenerateResource.cache
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado.exe
+D:\$DESCARGAS$\VisualStudio\ClaseEmpleado\obj\Debug\ClaseEmpleado.pdb
